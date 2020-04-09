@@ -1923,6 +1923,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   //COMPONENT INI JUGA MEMINTA DATA USER YANG AKAN MENGIRIMKAN PESAN
   //DARI CODE SEBELUMNYA KITA JUGA MENGIRIMKAN PROPS BERUPA DATA USER YANG SEDANG LOGIN
@@ -47256,11 +47258,11 @@ var render = function() {
       _c(
         "button",
         {
-          staticClass: "btn btn-primary btn-sm",
+          staticClass: "btn btn-sm btn-success",
           attrs: { id: "btn-chat" },
           on: { click: _vm.submit }
         },
-        [_vm._v("\n            Send\n        ")]
+        [_c("b", [_vm._v("\n            Send\n        ")])]
       )
     ])
   ])
@@ -59598,8 +59600,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.Pusher = __webpack_require__(/*! pusher-js */ "./node_modules/pusher-js/dist/web/pusher.js");
 window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   broadcaster: 'pusher',
-  key: "",
-  cluster: "mt1",
+  key: "cc9a352653d24e40d3e8",
+  cluster: "ap1",
   encrypted: true
 });
 
@@ -59761,8 +59763,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\dw-aplikasi-chatting\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\dw-aplikasi-chatting\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! A:\Materi Kuliah\sister\TR\dw-aplikasi-chatting\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! A:\Materi Kuliah\sister\TR\dw-aplikasi-chatting\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

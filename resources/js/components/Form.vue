@@ -6,8 +6,10 @@
         <div class="input-group-append">
 
           	<!-- ATAU JIKA TOMBOL SEND DI KLIK -->
-            <button class="btn btn-primary btn-sm" id="btn-chat" @click="submit">
+            <button class="btn btn-sm btn-success" id="btn-chat" @click="submit" >
+            <b>
                 Send
+            </b>
             </button>
         </div>
     </div>
